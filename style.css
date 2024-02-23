@@ -1,0 +1,120 @@
+:root{ --white: hsl(0, 0%, 100%);
+}
+body{
+    background-color: rgb(36, 107, 107);
+    margin: 0px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  width: 1440px;
+  
+}
+
+.sec{
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+justify-content: center;
+
+}
+.card{
+width: 250px;
+background-color: hsl(0, 0%, 12%);
+text-align: center;
+height: 80%;
+display: flex;
+flex-direction: column;
+/* padding-bottom: 15px; */
+padding-top: 10px;
+border-radius: 10px;
+}
+.text{
+ margin-top: 0px; 
+ padding: 0px; 
+ height:16%; 
+ /* background-color: aqua; */
+ margin-bottom: 5px;
+}
+.im{
+    /* background-color: rgb(49, 44, 44); */
+    background-image: url("./avatar-jessica.jpeg");
+background-repeat: no-repeat;
+height:63%;
+background-size: cover;
+width:20%;
+border-radius: 200px;
+background-position: center;
+}
+.iim{
+    height: 20%;
+/* background-color: rgb(201, 74, 74); */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 0px;
+width: 100%;
+
+}
+
+.buttons{
+height: 60%;
+display: flex;
+flex-direction: column;
+/* background-color: aqua; */
+/* justify-content: center; */
+justify-content: space-around;
+align-items: center;
+
+}
+
+ button{
+width: 83%;
+height: 30px;
+border-radius: 6px;
+border-width: 0px;
+font-size: smaller;
+font-weight: bold;
+background-color: hsl(0, 0%, 20%);
+color: var(--white);
+
+}
+h1{
+    /* background-color: cornflowerblue; */
+    margin: 0px;
+    font-size: medium;
+    font-weight: 600;
+}
+.pp{
+/* background-color: aqua; */
+color: rgb(226, 226, 95);
+margin-top: 5px;
+font-size: xx-small;
+font-weight: bold;
+}
+.oo{
+margin-bottom:0px ;
+/* background-color: aqua; */
+font-size: x-small;
+margin-top: 15px;
+}
+ 
+button:hover{
+
+background-color: yellow;
+    
+    }
+@media (max-size:375px){
+body{
+width: 375px;
+
+}
+}
+
+
+
+
+
+
+
